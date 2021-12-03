@@ -24,6 +24,7 @@ html {
 
 .main-header {
 	position: sticky;
+	offset: 10px 30px;
 	top: 0px;
 	background: linear-gradient(
 		41deg,
@@ -180,7 +181,7 @@ html {
 	margin-left: 5vh;
 }
 
-.xing-svg {
+.card-svg {
 	height: 14px;
 	width: 14px;
 }
