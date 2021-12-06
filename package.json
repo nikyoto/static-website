@@ -13,6 +13,7 @@
     "lint": "npm run prettier"
   },
   "devDependencies": {
-    "browser-sync": "^2.27.7"
+    "browser-sync": "^2.27.7",
+    "prettier": "^2.5.1"
   }
 }
