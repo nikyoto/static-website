@@ -12,7 +12,7 @@
 }
 
 body {
-	font-family: Roboto,sans-serif;
+	font-family: Roboto, sans-serif;
 	margin: 0;
 	background-color: #ffffff;
 	color: var(--foo);
@@ -24,8 +24,6 @@ html {
 
 .main-header {
 	position: sticky;
-	offset: 10px 30px;
-	top: 0px;
 	background: linear-gradient(
 		41deg,
 		rgba(2, 0, 36, 1) 0%,
@@ -33,15 +31,13 @@ html {
 		rgba(0, 212, 255, 1) 100%
 	);
 	color: #fff;
-	padding-top: 30px;
-	height: 125px;
+	padding-top: 1.5rem;
+	height: 7.5rem;
 	box-shadow: 0px 12px 8px rgba(0, 0, 0, 0.2);
 }
 
 .name {
-	margin-left: 5vh;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin: 0px 35px 0px 35px;
 }
 
 .home-link {
@@ -76,11 +72,11 @@ html {
 }
 
 .about {
-	margin: 5vh;
+	margin: 35px;
 }
 
 .skills {
-	margin-left: 5vh;
+	margin-left: 35px;
 }
 
 .content-ul {
@@ -91,36 +87,43 @@ html {
 
 .content-li {
 	background-color: #d0d0d0;
-	margin: 0px 30px 30px 0px;
-	padding: 6px 18px;
+	margin: 0px 10px 10px 0px;
+	padding: 0.5em;
 	border-radius: 3px;
 	color: #636363;
 	font-weight: lighter;
 }
 
 .languages {
-	margin-left: 5vh;
+	margin-left: 35px;
 }
 
 .social-networks {
-	margin-left: 5vh;
+	margin-left: 35px;
 }
 
 .card-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	gap: 16px;
+	column-gap: 30px;
+	row-gap: 30px;
+	margin: 35px;
+}
+
+@media (max-width: 420px) {
+	.card-container {
+		grid-template-columns: 1fr;
+	}
 }
 
 .card {
-	margin: 2.5vh 5vh 2.5vh 5vh;
 	padding: 16px;
 	color: #202020;
 	font-size: 14px;
 	line-height: 20px;
 	background: #fff;
 	box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
-	border-radius: 16px;
+	border-radius: 8px;
 }
 
 .card__headline {
@@ -178,7 +181,7 @@ html {
 }
 
 .biography {
-	margin-left: 5vh;
+	margin-left: 35px;
 }
 
 .card-svg {
